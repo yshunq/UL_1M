@@ -1,0 +1,7 @@
+http://wenku.baidu.com/link?url=SYZoKgBaAyVUadNlwBNh_EbQSA0eSl1NoM2Y6XUM_-krX_GG5OzFnQ1h5nnSja8dsj4W1Njx8xw4aKaCaQXU7jZsx56NrECH6ZjO3u8V1Aa
+
+根据上面的网址弄的固件库
+
+V2.1在V2.0基础上新增了后天可以设置跳过卡操作
+
+V2.2在V2.1基础上加上流量按键，只显示效果，删了电位器功能

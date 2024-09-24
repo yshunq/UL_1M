@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<TKStudioOptions Version="3.00" Author="YinHandong[Òüº®¶¬]">
+    <Projects OPTPES="96,96,96,0,0,96,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,96,0,0,0,0,96,96,0,96,0,96,0,0,0,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,0,0,96,0,96,0,0,0,0,96,0,0,2,0,0,0,0,0,0,0,96,0,0,96,0,0,0,0,">
+        <Project ProjectGUID="{6FF8D9C7-9F90-40c0-AC63-9172A68F30E4}" Name="1" ACTCFG="DebugRel">
+            <TARGOPT Name="DebugRel" OPTDF="0">
+                <OPTFFF VAL="&lt;.\system\main\xs_work.c&gt; {0,1,-1,-1,75,75,1484,563,0,491}" />
+                <OPTFFF VAL="&lt;.\system\main\xs_body_work.c&gt; {0,1,-1,-1,75,75,1484,563,153,10948}" />
+                <OPTFFF VAL="&lt;.\system\main\xs_face_work.c&gt; {0,1,-1,-1,75,75,1484,563,206,5260}" />
+                <OPTFFF VAL="&lt;.\system\display\dis_body_work.c&gt; {2,3,-1,-1,75,75,1484,563,78,3123}" />
+            </TARGOPT>
+        </Project>
+    </Projects>
+</TKStudioOptions>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="Windows-1252" ?>
+<TKStudioProject Name="1" ProjectGUID="{6FF8D9C7-9F90-40c0-AC63-9172A68F30E4}" BuildTool="0" ToolVer="" Version="3.00" Author="YinHandong[Òüº®¶¬]">
+    <Configurations>
+        <Configuration Name="DebugRel" CodeMode="2" MemMode="0" RTOS="0" T51FL="0" SIMCLK="33.000000" OCM51="" OCR51="" CodeBank="" OutputDirectory=".\DebugRel\" OutputName="1" GENAPP="1" GENLIB="0" ListingDirectory=".\DebugRel\" OPTLT="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" OPTDBG="1,-1,1,1,1,0,()" DEVICE="M6032" VENDOR="Acer Labs" FAMINY="0">
+            <Tool Name="C51Tool" C51FL="4853008" C51VA="0" C51DEF="" C51UDF="" C51MSC="" INCC5="" />
+            <Tool Name="A51Tool" A51FL="68" A51SET="" A51RST="" A51MSC="" INCA5="" />
+            <Tool Name="Lx51Tool" LX51FL="4" LX51COB="" LX51XDB="" LX51PDB="" LX51BIB="" LX51DAB="" LX51IDB="" LX51PRC="" LX51STK="" LX51COS="" LX51XDS="" LX51BIS="" LX51DAS="" LX51IDS="" LX51OVL="" LX51MSC="" LX51DWN="" />
+            <DeviceProperties Item0='SIM=S8051.DLL DP51.DLL(&quot;-p52&quot;)' Item1='MON=S8051.DLL TP51.DLL(&quot;-p52&quot;)' Item2="REGFILE=reg52.h" Item3='SFILE=&quot;LIB\STARTUP.A51&quot; (&quot;Standard 8051 Startup Code&quot;)' Item4="CPU=IRAM(0-0xFF) CLOCK(33000000) XRAM (0-0xFF) MODDP2" />
+            <DeviceDescription Description="8051-based Microcontroller with&#x0D;&#x0A;Dual Data Pointers,&#x0D;&#x0A;UART, 32 I/O lines, 3 Timers/Counters,&#x0D;&#x0A;6 Interrupts/2 priority levels,&#x0D;&#x0A;256 Bytes IDATA RAM,&#x0D;&#x0A;256 Bytes on-chip XRAM" />
+        </Configuration>
+    </Configurations>
+    <Files>
+        <Filter Name="Source Files">
+            <Filter Name="CMSIS">
+                <File RelativePath=".\CMSIS\core_cm3.c" />
+                <File RelativePath=".\CMSIS\core_cm3.h" />
+            </Filter>
+            <Filter Name="Libraries">
+                <Filter Name="inc">
+                    <File RelativePath=".\Libraries\inc\misc.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_adc.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_bkp.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_can.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_cec.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_crc.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_dac.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_dbgmcu.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_dma.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_exti.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_flash.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_fsmc.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_gpio.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_i2c.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_iwdg.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_pwr.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_rcc.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_rtc.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_sdio.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_spi.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_tim.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_usart.h" />
+                    <File RelativePath=".\Libraries\inc\stm32f10x_wwdg.h" />
+                </Filter>
+                <Filter Name="src">
+                    <File RelativePath=".\Libraries\src\misc.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_adc.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_bkp.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_can.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_cec.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_crc.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_dac.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_dbgmcu.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_dma.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_exti.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_flash.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_fsmc.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_gpio.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_i2c.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_iwdg.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_pwr.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_rcc.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_rtc.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_sdio.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_spi.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_tim.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_usart.c" />
+                    <File RelativePath=".\Libraries\src\stm32f10x_wwdg.c" />
+                </Filter>
+            </Filter>
+            <Filter Name="Obj">
+                <File RelativePath=".\Obj\main.c" />
+                <File RelativePath=".\Obj\startup_stm32f10x_hd.s" />
+                <File RelativePath=".\Obj\startup_stm32f10x_md.s" />
+                <Filter Name="Listings" />
+            </Filter>
+            <Filter Name="SYSTEM">
+                <Filter Name="COUNT">
+                    <File RelativePath=".\SYSTEM\COUNT\count_body_work.c" />
+                </Filter>
+                <Filter Name="DISPLAY">
+                    <File RelativePath=".\SYSTEM\DISPLAY\dis_body_work.c" />
+                </Filter>
+                <Filter Name="INC">
+                    <File RelativePath=".\SYSTEM\INC\ALL_PROGRAM.H" />
+                    <File RelativePath=".\SYSTEM\INC\CPU_PIN.H" />
+                    <File RelativePath=".\SYSTEM\INC\EXTERIOR_RAM.H" />
+                    <File RelativePath=".\SYSTEM\INC\i2c_ee.h" />
+                    <File RelativePath=".\SYSTEM\INC\PICTURE.H" />
+                    <File RelativePath=".\SYSTEM\INC\stm32f10x_conf.h" />
+                    <File RelativePath=".\SYSTEM\INC\stm32f10x_it.h" />
+                    <File RelativePath=".\SYSTEM\INC\WORKDATA_DIS.H" />
+                </Filter>
+                <Filter Name="MAIN">
+                    <File RelativePath=".\SYSTEM\MAIN\main_interface.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\main_loop.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_adjust_power.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_advanced_settings.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_body_work.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_check_fun.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_check_ic_card.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_face_work.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_input_age.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_input_num.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_set_language.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_work.c" />
+                    <File RelativePath=".\SYSTEM\MAIN\xs_write_card.c" />
+                </Filter>
+                <Filter Name="MAINH">
+                    <File RelativePath=".\SYSTEM\MAINH\FUN1_KEY.H" />
+                </Filter>
+                <Filter Name="SLE4442">
+                    <File RelativePath=".\SYSTEM\SLE4442\cardManage.c" />
+                    <File RelativePath=".\SYSTEM\SLE4442\cardManage.h" />
+                    <File RelativePath=".\SYSTEM\SLE4442\SLE4442.c" />
+                    <File RelativePath=".\SYSTEM\SLE4442\SLE4442.h" />
+                </Filter>
+                <Filter Name="SRC">
+                    <File RelativePath=".\SYSTEM\SRC\ads7843.c" />
+                    <File RelativePath=".\SYSTEM\SRC\display.c" />
+                    <File RelativePath=".\SYSTEM\SRC\exti.c" />
+                    <File RelativePath=".\SYSTEM\SRC\i2c_ee.c" />
+                    <File RelativePath=".\SYSTEM\SRC\init.c" />
+                    <File RelativePath=".\SYSTEM\SRC\RX1_DataCl.c" />
+                    <File RelativePath=".\SYSTEM\SRC\sound.c" />
+                    <File RelativePath=".\SYSTEM\SRC\time.c" />
+                    <File RelativePath=".\SYSTEM\SRC\uart.c" />
+                    <File RelativePath=".\SYSTEM\SRC\ysxxs.c" />
+                </Filter>
+                <Filter Name="sys">
+                    <File RelativePath=".\SYSTEM\sys\sys.c" />
+                    <File RelativePath=".\SYSTEM\sys\sys.h" />
+                </Filter>
+            </Filter>
+            <Filter Name="User">
+                <File RelativePath=".\User\stm32f10x_conf.h" />
+                <File RelativePath=".\User\stm32f10x_it.c" />
+                <File RelativePath=".\User\stm32f10x_it.h" />
+                <File RelativePath=".\User\system_stm32f10x.c" />
+            </Filter>
+        </Filter>
+    </Files>
+</TKStudioProject>
