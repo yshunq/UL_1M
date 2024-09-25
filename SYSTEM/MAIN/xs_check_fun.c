@@ -6,11 +6,17 @@ const unsigned int  CHECK_FUN_XY1[]=
 	 0,100,0,100,
 };
 
+
 void main_xs_check_fun(void)
 {
 	u8 key;
+//	UL1Mhz_TypeDef UL1Mhz_Par;
+//	UL1Mhz_Par.power = 100;
+	
 	DIS_PICNUM(Pic_CHECK_FUN);
-	DIS_FONT_WEI_NUMBER_CM(Pic_CHECK_FUN,1,0xff,0xff,0x03,12345,5,0,0);
+	DIS_FONT_WEI_NUMBER_CM(Pic_CHECK_FUN,1,0xff,0xff,0x03,UL1Mhz_Par.power,5,0,0);
+	UL1Mhz_Par.power = 5;
+	DIS_FONT_WEI_NUMBER_CM(Pic_CHECK_FUN,1,0xff,0xff,0x03,UL1Mhz_Par.power,5,0,100);
 	do{		
 		YS_XXms(1);
 		if(KEY_YES!=0x00){	
@@ -19,6 +25,7 @@ void main_xs_check_fun(void)
 			switch(key){
 				case  1://进入工作界面
 							XIANG1();
+							
 							break;
 				case  2://进入工作界面
 							XIANG1(); 

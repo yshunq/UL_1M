@@ -2,6 +2,17 @@
   所有子程序声明 
 */
 void jump_interface(void);
+
+
+
+//typedef void (*CallbackFunction)(UL1Mhz_TypeDef*);
+
+
+
+
+
+
+
 //----------------------
 void RCC_Configuration(void);
 void GPIO_Configuration(void);

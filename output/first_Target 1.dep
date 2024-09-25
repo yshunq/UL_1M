@@ -670,7 +670,7 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
 F (..\User\stm32f10x_it.c)(0x66EE8653)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -699,11 +699,11 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
@@ -736,8 +736,8 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-F (.\main.c)(0x66F137ED)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+F (.\main.c)(0x66F36700)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -766,16 +766,16 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\SRC\init.c)(0x66F0DDFF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\init.o --omf_browse ..\output\init.crf --depend ..\output\init.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -804,17 +804,17 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
-F (..\SYSTEM\SRC\time.c)(0x66F12A4B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\time.o --omf_browse ..\output\time.crf --depend ..\output\time.d)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+F (..\SYSTEM\SRC\time.c)(0x66F36672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\time.o --omf_browse ..\output\time.crf --depend ..\output\time.d)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -843,8 +843,8 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
@@ -852,7 +852,7 @@ I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\SRC\uart.c)(0x66F123EE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\uart.o --omf_browse ..\output\uart.crf --depend ..\output\uart.d)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -881,15 +881,15 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\SRC\ysxxs.c)(0x66EE3A48)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\ysxxs.o --omf_browse ..\output\ysxxs.crf --depend ..\output\ysxxs.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -918,17 +918,17 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\SRC\display.c)(0x66F11B9C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\display.o --omf_browse ..\output\display.crf --depend ..\output\display.d)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -957,15 +957,15 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\SRC\RX1_DataCl.c)(0x66F11EC5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\rx1_datacl.o --omf_browse ..\output\rx1_datacl.crf --depend ..\output\rx1_datacl.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -994,17 +994,17 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\SRC\ads7843.c)(0x66F0BCAA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\ads7843.o --omf_browse ..\output\ads7843.crf --depend ..\output\ads7843.d)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1033,16 +1033,16 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 F (..\SYSTEM\SRC\sound.c)(0x66EE816C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\sound.o --omf_browse ..\output\sound.crf --depend ..\output\sound.d)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1071,15 +1071,15 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\MAIN\main_interface.c)(0x66F1171D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\main_interface.o --omf_browse ..\output\main_interface.crf --depend ..\output\main_interface.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1108,16 +1108,16 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
-F (..\SYSTEM\MAIN\xs_check_fun.c)(0x66F11B38)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\xs_check_fun.o --omf_browse ..\output\xs_check_fun.crf --depend ..\output\xs_check_fun.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+F (..\SYSTEM\MAIN\xs_check_fun.c)(0x66F36D1E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\xs_check_fun.o --omf_browse ..\output\xs_check_fun.crf --depend ..\output\xs_check_fun.d)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1146,16 +1146,16 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)
 F (..\SYSTEM\MAIN\xs_advanced_settings.c)(0x66F22CA5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I..\CMSIS -I..\Libraries\inc -I..\Libraries\src -I..\User -I..\SYSTEM\INC -I..\SYSTEM\MAINH -I..\SYSTEM\IIC -I..\SYSTEM\24CXX -I..\SYSTEM\sys -I..\SYSTEM\SLE4442 -I..\SYSTEM\ADC -I..\SYSTEM\SRC-I "D:\2024年\1M爆脂\UL_1M V1.0程序\Obj\RTE"-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD-o ..\output\xs_advanced_settings.o --omf_browse ..\output\xs_advanced_settings.crf --depend ..\output\xs_advanced_settings.d)
-I (..\SYSTEM\INC\CPU_PIN.H)(0x66EE96AB)
+I (..\SYSTEM\INC\CPU_PIN.H)(0x66F280B9)
 I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h)(0x528979E6)
 I (..\CMSIS\core_cm3.h)(0x4D523B58)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
@@ -1184,11 +1184,11 @@ I (..\Libraries\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_usart.h)(0x4D783BB4)
 I (..\Libraries\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\Libraries\inc\misc.h)(0x4D783BB4)
-I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F123ED)
-I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F110E5)
+I (..\SYSTEM\INC\EXTERIOR_RAM.H)(0x66F35CEC)
+I (..\SYSTEM\INC\ALL_PROGRAM.H)(0x66F35D0F)
 I (..\SYSTEM\INC\PICTURE.H)(0x6570394E)
 I (..\SYSTEM\SRC\sound.h)(0x66EE8119)
-I (..\SYSTEM\SRC\time.h)(0x66EE86EC)
+I (..\SYSTEM\SRC\time.h)(0x66F36700)
 I (..\SYSTEM\SRC\uart.h)(0x66F120C8)
 I (..\SYSTEM\SRC\display.h)(0x66EE95A5)
 I (..\SYSTEM\SRC\ads7843.h)(0x66F0C02D)

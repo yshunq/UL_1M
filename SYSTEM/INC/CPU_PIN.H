@@ -1,6 +1,12 @@
 #ifndef  __CPU_PIN_H
 #define  __CPU_PIN_H
 
+
+
+
+
+
+
 #include "stm32f10x.h"
 #include "EXTERIOR_RAM.H"
 #include "ALL_PROGRAM.H"
@@ -10,6 +16,12 @@
 #include "uart.h"
 #include "display.h"
 #include "ads7843.h"
+
+
+
+//typedef void (*UL1Mhz_TypeDef)(int value);
+
+
 
 #define  PAGE_CHECK_FUN        0
 #define  PAGE_ADVAN_SET        1
@@ -32,6 +44,9 @@
 
 //#define FALSE 0
 //#define TRUE  !FALSE
+
+
+
 
 
 #endif

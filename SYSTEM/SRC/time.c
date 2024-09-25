@@ -1,5 +1,18 @@
 #include "time.h"
 
+struct UL1Mhz_TypeDef UL1Mhz_Par;
+
+void passStructToFunction(struct UL1Mhz_TypeDef *s)
+{
+	s->power = 30;
+}
+
+
+
+
+
+
+
 
 
 void SysTick_Init(void) //系统定时器SysTick 初始化
