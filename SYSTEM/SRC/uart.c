@@ -1,11 +1,6 @@
-//´®¿Ú³õÊ¼»¯
 #include "uart.h"
 
-u8  RX1_GS;
-u8 	KEY_YES;
-u16 ADS7843_X,ADS7843_Y;
-u8 	KEY_XH,KEY_XL;
-u8 	KEY_YH,KEY_YL;
+struct Uart_TypeDef Uart_LCD;
 
 void USARTx_UserConfig(void)
 {

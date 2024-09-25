@@ -1,33 +1,7 @@
-/*
-	初始化
-*/
 #include "CPU_PIN.H"
-//----------------------
+#include "init.h"
 
-/*
-void GPIO_IC_DATA_OUT(void)
-{
-	GPIO_InitTypeDef  GPIO_InitStructure;
-	
-	// 输出   
-	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_7;
-	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; //最高输出速率50MHz
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; //推挽输出
-	GPIO_Init(GPIOC,&GPIO_InitStructure);
-}
 
-//----------------------
-void GPIO_IC_DATA_IN(void)
-{
-	GPIO_InitTypeDef  GPIO_InitStructure;
-	
-	// 输入 
-	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_7;
-	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPU; //上拉输入
-	GPIO_Init(GPIOC,&GPIO_InitStructure);
-}
-*/
-//----------------------
 void GPIO_Configuration(void)				
 {  						 
 	GPIO_InitTypeDef GPIO_InitStructure;

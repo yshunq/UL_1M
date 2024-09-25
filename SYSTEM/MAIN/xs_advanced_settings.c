@@ -40,7 +40,7 @@ void main_xs_advanced_settings(void)
 	
 	do{
 		YS_XXms(1);
-		if(KEY_YES!=0x00){
+		if(Uart_LCD.KEY_YES!=0x00){
 			ADS7843_KEY();
 		  key=KEY_FANHUI(MAIN_KEY_ADIN1,MAIN_ADIN1); 
 	 	  switch(key){
@@ -80,7 +80,7 @@ void main_xs_advanced_settings(void)
 					comparison_password(wei,adv_psw);
 					goto over_main_xs_advanced_settings;
 			}
-			KEY_YES = 0;
+			Uart_LCD.KEY_YES = 0;
 		}
 	}while(1);
 	over_main_xs_advanced_settings:

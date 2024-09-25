@@ -13,8 +13,8 @@ u8 KEY_FANHUI(u8 GS,const unsigned int *ZB_ADD)
 	  xh=ZB_ADD[add];add++;	 
 	  yl=ZB_ADD[add];add++;	 
 	  yh=ZB_ADD[add];
-	  if(ADS7843_X>=xl&&ADS7843_X<=xh)
-			if(ADS7843_Y>=yl&&ADS7843_Y<=yh){
+	  if(Uart_LCD.ADS7843_X>=xl&&Uart_LCD.ADS7843_X<=xh)
+			if(Uart_LCD.ADS7843_Y>=yl&&Uart_LCD.ADS7843_Y<=yh){
 				key=loop;
 	   		key++;
 	   		break;
@@ -24,14 +24,14 @@ u8 KEY_FANHUI(u8 GS,const unsigned int *ZB_ADD)
 
 void ADS7843_KEY(void) //É¨Ãè°´¼ü
 {
-	if(KEY_YES==0xff){
-	  ADS7843_X = KEY_XH;
-		ADS7843_X <<= 8;
-		ADS7843_X |= KEY_XL;
+	if(Uart_LCD.KEY_YES==0xff){
+	  Uart_LCD.ADS7843_X = Uart_LCD.KEY_XH;
+		Uart_LCD.ADS7843_X <<= 8;
+		Uart_LCD.ADS7843_X |= Uart_LCD.KEY_XL;
 		
-		ADS7843_Y = KEY_YH;
-		ADS7843_Y <<= 8;
-		ADS7843_Y |= KEY_YL;
+		Uart_LCD.ADS7843_Y = Uart_LCD.KEY_YH;
+		Uart_LCD.ADS7843_Y <<= 8;
+		Uart_LCD.ADS7843_Y |= Uart_LCD.KEY_YL;
 	} 
 }
 

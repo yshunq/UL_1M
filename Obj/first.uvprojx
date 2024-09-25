@@ -429,64 +429,9 @@
           <GroupName>Libraries</GroupName>
           <Files>
             <File>
-              <FileName>misc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\misc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_adc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_bkp.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_bkp.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_can.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_can.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_cec.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_cec.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_crc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_crc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_dac.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_dac.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_dbgmcu.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_dbgmcu.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_dma.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f10x_exti.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Libraries\src\stm32f10x_exti.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_fsmc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_fsmc.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_gpio.c</FileName>
@@ -494,44 +439,9 @@
               <FilePath>..\Libraries\src\stm32f10x_gpio.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_i2c.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_i2c.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_iwdg.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_iwdg.c</FilePath>
-            </File>
-            <File>
               <FileName>stm32f10x_pwr.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\Libraries\src\stm32f10x_pwr.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_rcc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_rtc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_rtc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_sdio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_sdio.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_spi.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f10x_tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_tim.c</FilePath>
             </File>
             <File>
               <FileName>stm32f10x_usart.c</FileName>
@@ -539,9 +449,19 @@
               <FilePath>..\Libraries\src\stm32f10x_usart.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f10x_wwdg.c</FileName>
+              <FileName>stm32f10x_tim.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Libraries\src\stm32f10x_wwdg.c</FilePath>
+              <FilePath>..\Libraries\src\stm32f10x_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_rcc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\src\stm32f10x_rcc.c</FilePath>
+            </File>
+            <File>
+              <FileName>misc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Libraries\src\misc.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -627,66 +547,6 @@
               <FileName>xs_advanced_settings.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\SYSTEM\MAIN\xs_advanced_settings.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>DISPLAY</GroupName>
-          <Files>
-            <File>
-              <FileName>dis_body_work.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\DISPLAY\dis_body_work.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>IIC</GroupName>
-          <Files>
-            <File>
-              <FileName>myiic.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\IIC\myiic.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>sys</GroupName>
-          <Files>
-            <File>
-              <FileName>sys.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\sys\sys.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>24CXX</GroupName>
-          <Files>
-            <File>
-              <FileName>24cxx.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\24CXX\24cxx.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>COUNT</GroupName>
-          <Files>
-            <File>
-              <FileName>count_body_work.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\COUNT\count_body_work.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>ADC</GroupName>
-          <Files>
-            <File>
-              <FileName>adc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\SYSTEM\ADC\adc.c</FilePath>
             </File>
           </Files>
         </Group>

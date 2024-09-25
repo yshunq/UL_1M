@@ -1,14 +1,16 @@
 #ifndef __TIME_H
 #define __TIME_H
-#include "CPU_PIN.H"
+#include "stm32f10x.h"
 
-struct UL1Mhz_TypeDef{
-	u8 power;
-};
+extern u32 TimingDelay;
 
-extern struct UL1Mhz_TypeDef UL1Mhz_Par;
+//struct UL1Mhz_TypeDef{
+//	u8 power;
+//};
 
-void passStructToFunction(struct UL1Mhz_TypeDef *s);
+//extern struct UL1Mhz_TypeDef UL1Mhz_Par;
+
+//void passStructToFunction(struct UL1Mhz_TypeDef *s);
 
 
 
